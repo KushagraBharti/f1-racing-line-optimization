@@ -1,0 +1,6 @@
+numpy>=1.21
+opencv-python>=4.5
+matplotlib>=3.4
+gym>=0.21
+pygame>=2.1
+ray[rllib]>=2.0
