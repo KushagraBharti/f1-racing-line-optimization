@@ -1,0 +1,33 @@
+# Core simulation and reinforcement learning stack
+numpy>=1.26
+scipy>=1.11
+gymnasium>=0.29
+stable-baselines3>=2.3
+ray[rllib]>=2.9
+torch>=2.1
+pymunk>=6.6
+shapely>=2.0
+pygame-ce>=2.5
+moderngl>=5.8
+imageio[ffmpeg]>=2.33
+
+# Configuration, data handling, and validation
+hydra-core>=1.3
+omegaconf>=2.3
+pydantic>=2.5
+polars>=0.20
+xarray>=2023.9
+
+# Experiment tracking & visualization
+wandb>=0.16
+plotly>=5.18
+streamlit>=1.29
+
+# Tooling & quality assurance
+typer>=0.9
+pytest>=7.4
+pytest-benchmark>=4.0
+pytest-xdist>=3.4
+black>=23.11
+ruff>=0.1.7
+mypy>=1.7
